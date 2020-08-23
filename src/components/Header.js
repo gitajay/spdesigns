@@ -225,9 +225,10 @@ class Header extends React.Component {
                     </React.Fragment>
                   ) : (
                     <li key={link.name}>
-                      <Link className={link.cl} to={link.link}>
+                      <a rel="noopener noreferrer" href={link.link} target="_blank">{link.name}</a>
+                      {/* <Link className={link.cl} to={link.link}>
                         {link.name}
-                      </Link>
+                      </Link> */}
                     </li>
                   )
                 )}

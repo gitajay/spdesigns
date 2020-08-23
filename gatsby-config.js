@@ -54,8 +54,13 @@ module.exports = {
       //   link: '/elements',
       // },
       {
-        name: 'Contact Us',
-        link: '#',
+        name: 'spdesign16@gmail.com',
+        link: 'mailto:spdesign16@gmail.com',
+        cl: 'button primary',
+      },
+      {
+        name: '+919884955059',
+        link: 'https://api.whatsapp.com/send?phone=+919884955059',
         cl: 'button primary',
       },
     ],

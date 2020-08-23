@@ -3,8 +3,11 @@ import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 import One from '../components/One'
-import Two from '../components/Two'
-import Three from '../components/Three'
+import ServiceOne from '../components/ServiceOne'
+import ServiceTwo from '../components/ServiceTwo'
+import ServiceThree from '../components/ServiceThree'
+import ServiceFour from '../components/ServiceFour'
+import ServiceFive from '../components/ServiceFive'
 import Four from '../components/Four'
 import Five from '../components/Five'
 
@@ -22,8 +25,11 @@ class Home extends React.Component {
         ></Helmet>
         <Banner />
         <One />
-        <Two />
-        <Three />
+        <ServiceOne />
+        <ServiceTwo />
+        <ServiceThree />
+        <ServiceFour />
+        <ServiceFive />
         <Four />
         <Five />
       </Layout>

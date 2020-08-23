@@ -8,7 +8,7 @@ const Four = props => (
         <header className="major">
           <h2>Behind our success</h2>
           <p>
-            Bla bla - make a sentence here
+            Focus on goal
           </p>
         </header>
         <div className="box alt">
@@ -31,7 +31,7 @@ const Four = props => (
               <span className="icon solid alt major fa-file"></span>
               <h3>Documentation</h3>
               <p>
-                Pretty clean diagrams that portrait the idealogy of the site or anything u want
+                Pretty clean drawings that portrait the idealogy of the site or anything u love
               </p>
             </section>
             <section className="col-4 col-6-medium col-12-xsmall">
@@ -46,7 +46,7 @@ const Four = props => (
         <footer className="major">
           <ul className="actions special">
             <li>
-              <a target="_blank" href="https://api.whatsapp.com/send?phone=9884955059" className="button">
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=+919884955059" className="button">
                 Uff! impressed?
               </a>
             </li>

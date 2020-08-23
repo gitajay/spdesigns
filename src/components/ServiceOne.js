@@ -1,29 +1,29 @@
 import React from 'react'
-import pic04 from '../assets/images/pic04.jpg'
+import pic03 from '../assets/images/pic03.jpg'
 import { Link as ScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
 
-const Three = props => (
+const ServiceOne = props => (
   <section
-    id="three"
-    className="spotlight style3 left inactive"
-    style={{ backgroundImage: `url(${pic04})` }}
+    id="two"
+    className="spotlight style2 right inactive"
+    style={{ backgroundImage: `url(${pic03})` }}
   >
-    <span className="image fit main bottom">
-      <img src={pic04} alt="" />
+    <span className="image fit main">
+      <img src={pic03} alt="" />
     </span>
-    <Fade left big>
+    <Fade right big>
       <div className="content">
         <header>
-          <h2>Service 2</h2>
+          <h2>ELECTRIFICATION</h2>
           <p>Small desc</p>
         </header>
-        <p>
-          More about : Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim
+        {/* <p>
+          More about service : Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim
           mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet
           augue varius tempus lobortis porttitor lorem et accumsan consequat
           adipiscing lorem.
-        </p>
+        </p> */}
         {/* <ul className="actions">
           <li>
             <a href="/" className="button">
@@ -34,7 +34,7 @@ const Three = props => (
       </div>
     </Fade>
     <ScrollLink
-      to="four"
+      to="three"
       className="goto-next"
       activeClass="active"
       smooth={true}
@@ -47,4 +47,4 @@ const Three = props => (
   </section>
 )
 
-export default Three
+export default ServiceOne
