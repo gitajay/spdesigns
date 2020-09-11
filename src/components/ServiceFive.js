@@ -16,7 +16,6 @@ const ServiceFive = props => (
       <div className="content">
         <header>
           <h2>TRANSFORMER ERECTION</h2>
-          <p>Small desc</p>
         </header>
         {/* <p>
           More about : Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim

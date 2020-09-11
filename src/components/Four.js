@@ -17,7 +17,7 @@ const Four = props => (
               <span className="icon solid alt major fa-chart-area"></span>
               <h3>Productivity</h3>
               <p>
-                Bla bla - make a sentence here. sdsdfsdfdf
+                Working and maintaining a network of professional relationships within the industry.
               </p>
             </section>
             <section className="col-4 col-6-medium col-12-xsmall">
@@ -31,14 +31,14 @@ const Four = props => (
               <span className="icon solid alt major fa-file"></span>
               <h3>Documentation</h3>
               <p>
-                Pretty clean drawings that portrait the idealogy of the site or anything u love
+                Pretty clean drawings that portrait the idealogy of the site that you love
               </p>
             </section>
             <section className="col-4 col-6-medium col-12-xsmall">
               <span className="icon solid alt major fa-lock"></span>
               <h3>Privacy</h3>
               <p>
-                Customer details, site drawings are safe in digi lock or something u need to say to the customer
+                Customer details, site drawings are safe in digi lock for the privacy. We have an interactive tech team behind.
               </p>
             </section>
           </div>
@@ -47,7 +47,7 @@ const Four = props => (
           <ul className="actions special">
             <li>
               <a target="_blank" href="https://api.whatsapp.com/send?phone=+919884955059" className="button">
-                Uff! impressed?
+                Whatsapp us!
               </a>
             </li>
           </ul>

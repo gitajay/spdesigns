@@ -16,7 +16,6 @@ const ServiceOne = props => (
       <div className="content">
         <header>
           <h2>ELECTRIFICATION</h2>
-          <p>Small desc</p>
         </header>
         {/* <p>
           More about service : Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim

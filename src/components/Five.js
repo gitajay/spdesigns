@@ -9,7 +9,21 @@ const Five = props => (
           <h2>Contact us</h2>
           <p>We are for you. Touch base with us any time</p>
         </header>
-        <form method="post" action="#" className="cta">
+        <footer className="major">
+          <ul className="actions special">
+            <li>
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=+919884955059" className="button">
+                9884955059
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=+919003287608" className="button">
+                9003287608
+              </a>
+            </li>
+          </ul>
+        </footer>
+        {/* <form method="post" action="#" className="cta">
           <div className="row gtr-uniform gtr-50">
             <div className="col-8 col-12-xsmall">
               <input
@@ -30,7 +44,7 @@ const Five = props => (
               />
             </div>
           </div>
-        </form>
+        </form> */}
       </div>
     </Fade>
   </section>
