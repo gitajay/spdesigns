@@ -54,8 +54,8 @@ module.exports = {
       //   link: '/elements',
       // },
       {
-        name: 'spdesign16@gmail.com',
-        link: 'mailto:spdesign16@gmail.com',
+        name: 'sales@spdesignengg.com',
+        link: 'mailto:sales@spdesignengg.com',
         cl: 'button primary',
       },
       {
